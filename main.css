@@ -1,3 +1,7 @@
+#grad{
+    background: linear-gradient(#686A70, #484242);
+    background-attachment: fixed;
+}
 .parag{
     text-align: center;
     color:blue;
@@ -6,6 +10,9 @@
 }
 .dinheiro{
     color: aqua;
+    font-family: "Keania One", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
 }
 #choro{
     text-align: center;
