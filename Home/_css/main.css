@@ -2,20 +2,39 @@ body{
     background: linear-gradient(#686A70, #484242);
     background-attachment: fixed;
 }
+.N p{
+    color: #DADFDE;
+    font-size: 140px;
+    font-family: "Keania One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: -164px;left: 6px;
+}
+.N p2{
+    color:#DADFDE;
+    font-size: 18px;
+    font-family: "Keania One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 112px; left: 15px;
+}
 .nbar{
     color: white;
-    position: absolute; width:641px; height:29px; left:558px; top:85px;
+    position: absolute; width:641px; height:29px; left:638px; top:85px;
     font-size: x-large;
     font-family: "Keania One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    display:flex; 
+    word-spacing:31px;
+    display:flex;
  }
 .dinheiro{
     color: rgb(83, 107, 107);
     font-family: "Keania One", sans-serif;
     font-weight: 400;
-    font-style: normal;  
+    font-style: normal;
 }
 .choro{
     text-align: center;
@@ -25,11 +44,12 @@ body{
     width:636px;
     height:868px;
     background:linear-gradient(#B8B2B2,#484242);
-    position: absolute; top: 140px; left: 400px;
+    position: absolute; top: 140px; left: 480px;
     border-radius:20px;
     border: 1px solid black;
  }
-.teste{
-    position: absolute;left: 800px; top: 0px;
-    color: red;
-}
+ .peter img{
+    position: absolute;
+    left: 0;
+    top: 12px;
+ }
