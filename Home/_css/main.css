@@ -1,73 +1,72 @@
 *{
   margin: 0px;
-  padding: 0px;
-}
+  padding: 0px;}
 
 body {
   background: linear-gradient(#686a70, #484242);
-  background-attachment: fixed;
-}
+  background-attachment: fixed;}
+
 #line-one{
-  display:flex
-}
+  display:flex}
+
 .logo p {
   margin-top: -28px;
   color: #dadfde;
-  font-size: 140px;
+  font-size: 146px;
   font-family: "Keania One", sans-serif;
-  font-weight: 400;
   font-style: normal;
   user-select: none;
-  pointer-events: none;
-}
+  pointer-events: none;}
+
 .logo p2 {
   color: #dadfde;
-  font-size: 18px;
+  font-size: 22px;
   font-family: "Keania One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   user-select: none;
+  position: absolute;
+  top: 116px;
   pointer-events: none;
-}
+  left: 4px;}
+
 .peter img {
   position: absolute;
-  left: 0;
-  top: 12px;
+  left: -475px;
+  top: -13px;
   user-select: none;
-  pointer-events: none;
-}
+  pointer-events: none;}
+
 .nbar a {
 color: white;
 margin: 99px;
 font-size: 33px;
 font-family: "Keania One", sans-serif;
-font-weight: 400;
-font-style: normal;
 position:relative;
-left: 310px;
-top: 85px;
+left: 540px;
+top: 105px;
 text-decoration: none;
-} 
-.recbar {
-  width: 36px;
-  height: 7px;
+user-select: none;}
+
+.nbar-rectangle {
+  width: 62px;
+  height: 10px;
   border-radius: 20px;
   position: absolute;
-  left: 529px;
-  top: 85px;
-  background-color: #d9d9d9;
-}
+  left: 749px;
+  top: 101px;
+  background-color: #d9d9d9;}
+
+#cards{
+  display: flex;}
 .card-major{
   display: flex;
   width: 1000px;
-  height: 868px;
+  height: 1100px;
   background: linear-gradient(#b8b2b2, #484242);
   position: absolute;
-  top: 140px;
-  left: 480px;
+  left: 503px;
   border-radius: 20px;
-  border: 1px solid black;
-}
+  border: 1px solid black;}
+
 .card-minor{
   position: relative;
   width: 900px;
@@ -77,6 +76,4 @@ text-decoration: none;
   border-radius: 20px;
   border: 1px solid #c7bebe;
   overflow: hidden;
-  left: 508px;
-  top: 296px;
-}
+  left: 508px;}
