@@ -52,7 +52,7 @@ body {
     background-color: #d9d9d9;}
 /* line one grad end */
 
-/* cards ini */
+/* cards grad ini */
 #cards{
   display: flex;}
   .card-major{
@@ -74,4 +74,4 @@ body {
   border: 1px solid #c7bebe;
   overflow: hidden;
   left: 508px;}
-  /* cards end */
+/* cards grad end */
