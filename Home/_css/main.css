@@ -1,78 +1,82 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
-    background: linear-gradient(#686A70, #484242);
-    background-attachment: fixed;
+  background: linear-gradient(#686a70, #484242);
+  background-attachment: fixed;
 }
-/*NEVERLAND LOGO*/
-.N p {
-    color: #DADFDE;
-    font-size: 140px;
-    font-family: "Keania One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: -164px;
-    left: 6px;
-    user-select: none;  /* COMANDO PARA USUARIO NÃO SELECIONAR*/
-    pointer-events: none;} /* COMANDO PARA USUARIO NÃO INTERAGIR*/
-.N p2 {
-    color: #DADFDE;
-    font-size: 18px;
-    font-family: "Keania One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    top: 112px;
-    left: 15px;
-    user-select: none; /* COMANDO PARA USUARIO NÃO SELECIONAR*/
-    pointer-events: none;} /* COMANDO PARA USUARIO NÃO INTERAGIR*/
+#line-one{
+  display:flex
+}
+.logo p {
+  margin-top: -28px;
+  color: #dadfde;
+  font-size: 140px;
+  font-family: "Keania One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  user-select: none;
+  pointer-events: none;
+}
+.logo p2 {
+  color: #dadfde;
+  font-size: 18px;
+  font-family: "Keania One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  user-select: none;
+  pointer-events: none;
+}
 .peter img {
-    position: absolute;
-    left: 0;
-    top: 12px;
-    user-select: none;
-    pointer-events: none;}
-/*NEVERLAND LOGO ACABA.*/
-
-/* BARRA DE NAVEGAÇÃO */
-.nbar {
-    /* NOMES */
-    color: white;
-    position: absolute;
-    width: 641px;height: 29px;left: 520px;top: 70px;
-    font-size: x-large;font-family: "Keania One", sans-serif;font-weight: 400; font-style: normal;
-    word-spacing: 130px;
-    display: flex;
-    user-select: none;
-    pointer-events: none;}
-    /* NOMES ACABA */
-.recbar{
-    width: 36px;
-    height: 7px;
-    border-radius: 20px;
-    position: absolute;
-    left: 529px; top:85px;
-    background-color: #D9D9D9;
+  position: absolute;
+  left: 0;
+  top: 12px;
+  user-select: none;
+  pointer-events: none;
 }
-/* BARRA DE NAVEGAÇÃO ACABA*/
-
-/* CARD */
-.rectangle {
-    width: 1000px;
-    height: 868px;
-    background: linear-gradient(#B8B2B2, #484242);
-    position: absolute;
-    top: 140px;
-    left: 480px;
-    border-radius: 20px;
-    border: 1px solid black;}
-.rectangle2 {
-    /* RECTANGLE2*/
-    position: relative;
-    width: 922px;
-    height: 190px;
-    border-radius: 20px;
-    border: 1px solid #C7BEBE;
-    overflow: hidden;
-    left: 508px; top: 296px;}
-    /* RECTANGLE2 FIM*/
-/* CARD ACABA */
+.nbar a {
+color: white;
+margin: 99px;
+font-size: 33px;
+font-family: "Keania One", sans-serif;
+font-weight: 400;
+font-style: normal;
+position:relative;
+left: 310px;
+top: 85px;
+text-decoration: none;
+} 
+.recbar {
+  width: 36px;
+  height: 7px;
+  border-radius: 20px;
+  position: absolute;
+  left: 529px;
+  top: 85px;
+  background-color: #d9d9d9;
+}
+.card-major{
+  display: flex;
+  width: 1000px;
+  height: 868px;
+  background: linear-gradient(#b8b2b2, #484242);
+  position: absolute;
+  top: 140px;
+  left: 480px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.card-minor{
+  position: relative;
+  width: 900px;
+  height: 300px;
+  background-image: url(../image_home/boy.jpg);
+  background-size: 900px 300px;
+  border-radius: 20px;
+  border: 1px solid #c7bebe;
+  overflow: hidden;
+  left: 508px;
+  top: 296px;
+}
