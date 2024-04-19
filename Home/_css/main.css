@@ -1,77 +1,139 @@
-*{
-  margin: 0px;
-  padding: 0px;}
-
 body {
   background: linear-gradient(#686a70, #484242);
-  background-attachment: fixed;}
+  background-attachment: fixed;
+}
+/* nav bar grad ini */
+.line-one {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  height: 123px;
+  width: 88px;
+  background-image: url(../image_home/LOGO.png);
+  margin-right: 451px;
+}
 
-/* line one grad ini */
-#line-one{
-  display:flex}
-  .logo p {
-    margin-top: -28px;
-    color: #dadfde;
-    font-size: 146px;
-    font-family: "Keania One", sans-serif;
-    font-style: normal;
-    user-select: none;
-    pointer-events: none;}
-  .logo p2 {
-    color: #dadfde;
-    font-size: 22px;
-    font-family: "Keania One", sans-serif;
-    user-select: none;
-    position: absolute;
-    top: 116px;
-    pointer-events: none;
-    left: 4px;}
-  .peter img {
-    position: absolute;
-    left: -475px;
-    top: -13px;
-    user-select: none;
-    pointer-events: none;}
-  .nbar a {
-    color: white;
-    margin: 99px;
-    font-size: 33px;
-    font-family: "Keania One", sans-serif;
-    position:relative;
-    left: 345px;
-    top: 105px;
-    text-decoration: none;
-    user-select: none;}
-  .nbar-rectangle {
-    position: absolute;
-    left: 555px;
-    top: 101px;
-    width: 59px;
-    height: 8px;
-    border-radius: 20px;
-    background-color: #d9d9d9;}
-/* line one grad end */
+.navbar-b {
+  width: 45px;
+  height: 7px;
+  position: absolute;
+  background-color: white;
+  left: 553px;
+  top: 100px;
+  border-radius: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  height: 126px;
+  font-family: "Keania One", sans-serif;
+  font-size: 24px;
+  margin-right: 100px;
+  user-select: none;
+  text-decoration: none;
+  color: white;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  user-select: none;
+}
+.rectanglenav {
+  width: 200px;
+  height: 300px;
+}
+/* nav bar grad end */
 
 /* cards grad ini */
-#cards{
-  display: flex;}
-  .card-major{
+.cards {
   display: flex;
-  width: 1000px;
-  height: 1100px;
+  height: 875px;
+}
+.peterboy {
+  display: flex;
+  margin-right: 10px;
+  background-image: url(../image_home/peter.png);
+  height: 875px;
+  width: 500px;
+  background-position: -471px -2px;
+  background-repeat: no-repeat;
+}
+.rectangle {
+  width: 636px;
+  height: 868px;
+  border-radius: 20px;
+  border: 1px solid black;
   background: linear-gradient(#b8b2b2, #484242);
-  position: absolute;
-  left: 503px;
-  border-radius: 20px;
-  border: 1px solid black;}
-  .card-minor{
-  position: relative;
-  width: 900px;
-  height: 300px;
+  margin-right: 20px;
+}
+.tinker {
+  width: 400px;
+  height: 860px;
+  background-image: url(../image_home/tinker.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.title {
+  display: flex;
+  justify-content: left;
+  margin-left: 15px;
+  margin-top: 20px;
+  color: white;
+  font-family: "Keania One", sans-serif;
+  font-size: 20px;
+}
+.parag {
+  display: flex;
+  justify-content: left;
+  margin-left: 10px;
+  text-align: left;
+  color: #ffff;
+  font-family: "Keania One", sans-serif;
+  font-size: 15px;
+}
+.meninocard {
+  margin-top: -6px;
+  margin-left: 15px;
   background-image: url(../image_home/boy.jpg);
-  background-size: 900px 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px -105px;
+  height: 185px;
+  width: 600px;
+  border: black solid 1px;
   border-radius: 20px;
-  border: 1px solid #c7bebe;
-  overflow: hidden;
-  left: 508px;}
+}
+.note {
+  display: flex;
+  justify-content: right;
+  margin-right: 35px;
+  color: #ffff;
+  font-family: "Keania One", sans-serif;
+  font-size: 8px;
+  align-content: end;
+}
+.sectitle {
+  display: flex;
+  justify-content: left;
+  margin-left: 15px;
+  margin-top: 25px;
+  color: white;
+  font-family: "Keania One", sans-serif;
+  font-size: 20px;
+}
+.viole {
+  margin-top: -6px;
+  margin-left: 15px;
+  background-image: url(../image_home/viole.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px -105px;
+  height: 185px;
+  width: 600px;
+  border: black solid 1px;
+  border-radius: 20px;
+}
 /* cards grad end */

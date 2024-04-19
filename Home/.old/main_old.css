@@ -1,0 +1,77 @@
+*{
+  margin: 0px;
+  padding: 0px;}
+
+body {
+  background: linear-gradient(#686a70, #484242);
+  background-attachment: fixed;}
+
+/* line one grad ini */
+#line-one{
+  display:flex}
+  .logo p {
+    margin-top: -28px;
+    color: #dadfde;
+    font-size: 146px;
+    font-family: "Keania One", sans-serif;
+    font-style: normal;
+    user-select: none;
+    pointer-events: none;}
+  .logo p2 {
+    color: #dadfde;
+    font-size: 22px;
+    font-family: "Keania One", sans-serif;
+    user-select: none;
+    position: absolute;
+    top: 116px;
+    pointer-events: none;
+    left: 4px;}
+  .peter img {
+    position: absolute;
+    left: -475px;
+    top: -13px;
+    user-select: none;
+    pointer-events: none;}
+  .nbar a {
+    color: white;
+    margin: 99px;
+    font-size: 33px;
+    font-family: "Keania One", sans-serif;
+    position:relative;
+    left: 345px;
+    top: 105px;
+    text-decoration: none;
+    user-select: none;}
+  .nbar-rectangle {
+    position: absolute;
+    left: 555px;
+    top: 101px;
+    width: 59px;
+    height: 8px;
+    border-radius: 20px;
+    background-color: #d9d9d9;}
+/* line one grad end */
+
+/* cards grad ini */
+#cards{
+  display: flex;}
+  .card-major{
+  display: flex;
+  width: 1000px;
+  height: 1100px;
+  background: linear-gradient(#b8b2b2, #484242);
+  position: absolute;
+  left: 503px;
+  border-radius: 20px;
+  border: 1px solid black;}
+  .card-minor{
+  position: relative;
+  width: 900px;
+  height: 300px;
+  background-image: url(../image_home/boy.jpg);
+  background-size: 900px 300px;
+  border-radius: 20px;
+  border: 1px solid #c7bebe;
+  overflow: hidden;
+  left: 508px;}
+/* cards grad end */
