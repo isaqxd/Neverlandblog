@@ -30,6 +30,10 @@ body {
   color: white;
   user-select: none;
 }
+.rectanglenav {
+  width: 200px;
+  height: 300px;
+}
 /* nav bar grad end */
 
 /* cards grad ini */
@@ -54,7 +58,7 @@ body {
   background: linear-gradient(#b8b2b2, #484242);
   margin-right: 20px;
 }
-.tinker{
+.tinker {
   width: 400px;
   height: 860px;
   background-image: url(../image_home/tinker.png);
@@ -65,7 +69,7 @@ body {
 .title {
   margin-left: 15px;
   text-align: left;
-  margin-top: 10px;
+  margin-top: 20px;
   color: white;
   font-family: "Keania One", sans-serif;
   font-size: 20px;
@@ -75,16 +79,44 @@ body {
   text-align: left;
   color: #ffff;
   font-family: "Keania One", sans-serif;
+  font-size: 15px;
 }
-.imgrectangle {
-  margin-top: -10px;
-  margin-left: 08px;
+.boyandh {
+  margin-top: -6px;
+  margin-left: 15px;
   background-image: url(../image_home/boy.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0px -55px;
+  background-position: 0px -105px;
   height: 185px;
-  width: 500px;
+  width: 600px;
+  border: black solid 1px;
+  border-radius: 20px;
+}
+.note {
+  margin-left: 480px;
+  text-align: left;
+  color: #ffff;
+  font-family: "Keania One", sans-serif;
+  font-size: 8px;
+}
+.sectitle {
+  margin-left: 15px;
+  text-align: left;
+  margin-top: 25px;
+  color: white;
+  font-family: "Keania One", sans-serif;
+  font-size: 20px;
+}
+.viole {
+  margin-top: -6px;
+  margin-left: 15px;
+  background-image: url(../image_home/viole.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px -105px;
+  height: 185px;
+  width: 600px;
   border: black solid 1px;
   border-radius: 20px;
 }
