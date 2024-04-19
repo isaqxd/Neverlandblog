@@ -2,7 +2,7 @@ body {
   background: linear-gradient(#686a70, #484242);
   background-attachment: fixed;
 }
-/* nav bar grad ini */
+/* line-one ini */
 .line-one {
   display: flex;
   flex-direction: row;
@@ -14,7 +14,7 @@ body {
   margin-right: 451px;
 }
 
-.navbar-b {
+.rectan-nav-bar {
   width: 45px;
   height: 7px;
   position: absolute;
@@ -44,13 +44,9 @@ body {
   width: 200px;
   height: 300px;
 }
-/* nav bar grad end */
+/* line-one end */
 
-/* cards grad ini */
-.cards {
-  display: flex;
-  height: 875px;
-}
+/* background image ini*/
 .peterboy {
   display: flex;
   margin-right: 10px;
@@ -60,14 +56,6 @@ body {
   background-position: -471px -2px;
   background-repeat: no-repeat;
 }
-.rectangle {
-  width: 636px;
-  height: 868px;
-  border-radius: 20px;
-  border: 1px solid black;
-  background: linear-gradient(#b8b2b2, #484242);
-  margin-right: 20px;
-}
 .tinker {
   width: 400px;
   height: 860px;
@@ -75,6 +63,27 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+/* background image end */
+/* card ini */
+.line-two {
+  display: flex;
+  height: 875px;
+}
+.esconder {
+  position: absolute;
+  padding: 0;
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+}
+.card-major {
+  width: 636px;
+  height: 868px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background: linear-gradient(#b8b2b2, #484242);
+  margin-right: 20px;
 }
 .title {
   display: flex;
@@ -94,7 +103,7 @@ body {
   font-family: "Keania One", sans-serif;
   font-size: 15px;
 }
-.meninocard {
+.card-minor-top {
   margin-top: -6px;
   margin-left: 15px;
   background-image: url(../image_home/boy.jpg);
@@ -124,16 +133,16 @@ body {
   font-family: "Keania One", sans-serif;
   font-size: 20px;
 }
-.viole {
+.card-minor-bot {
   margin-top: -6px;
   margin-left: 15px;
   background-image: url(../image_home/viole.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0px -105px;
+  background-position: 0px -90px;
   height: 185px;
   width: 600px;
   border: black solid 1px;
   border-radius: 20px;
 }
-/* cards grad end */
+/* card end */
