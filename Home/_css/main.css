@@ -104,16 +104,17 @@ body {
   font-size: 15px;
 }
 .card-minor-top {
+  overflow: hidden;
   margin-top: -6px;
   margin-left: 15px;
-  background-image: url(../image_home/boy.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0px -105px;
   height: 185px;
   width: 600px;
   border: black solid 1px;
   border-radius: 20px;
+}
+.heronboy {
+  height: 100%;
+  width: 100%;
 }
 .note {
   display: flex;
@@ -134,15 +135,17 @@ body {
   font-size: 20px;
 }
 .card-minor-bot {
+  display: flex;
+  overflow: hidden;
   margin-top: -6px;
   margin-left: 15px;
-  background-image: url(../image_home/viole.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0px -90px;
   height: 185px;
   width: 600px;
   border: black solid 1px;
   border-radius: 20px;
+}
+.towerofgod {
+  height: 300%;
+  width: 100%;
 }
 /* card end */
