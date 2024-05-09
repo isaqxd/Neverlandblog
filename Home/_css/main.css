@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   background: linear-gradient(#686a70, #484242);
   background-attachment: fixed;
@@ -8,10 +12,11 @@ body {
   flex-direction: row;
 }
 .logo {
-  height: 123px;
-  width: 88px;
+  width: 96px;
   background-image: url(../image_home/LOGO.png);
-  margin-right: 451px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 465px;
 }
 
 .rectan-nav-bar {
@@ -19,7 +24,7 @@ body {
   height: 7px;
   position: absolute;
   background-color: white;
-  left: 553px;
+  left: 568px;
   top: 100px;
   border-radius: 20px;
 }
@@ -51,14 +56,13 @@ body {
   display: flex;
   margin-right: 10px;
   background-image: url(../image_home/peter.png);
-  height: 875px;
-  width: 500px;
+  width: 505px;
   background-position: -471px -2px;
   background-repeat: no-repeat;
 }
 .tinker {
-  width: 400px;
-  height: 860px;
+  width: 35%;
+  /* height: 820px; */
   background-image: url(../image_home/tinker.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -68,7 +72,7 @@ body {
 /* card ini */
 .line-two {
   display: flex;
-  height: 875px;
+  height: 100%;
 }
 .esconder {
   position: absolute;
@@ -79,11 +83,11 @@ body {
 }
 .card-major {
   width: 636px;
-  height: 868px;
+  height: 820px;
   border-radius: 20px;
   border: 1px solid black;
   background: linear-gradient(#b8b2b2, #484242);
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 .title {
   display: flex;
@@ -105,11 +109,12 @@ body {
 }
 .card-minor-top {
   overflow: hidden;
-  margin-top: -6px;
+  margin-top: 10px;
   margin-left: 15px;
+  margin-right: 15px;
   height: 185px;
   width: 600px;
-  border: black solid 1px;
+  border: 1px solid black;
   border-radius: 20px;
 }
 .heronboy {
@@ -137,8 +142,9 @@ body {
 .card-minor-bot {
   display: flex;
   overflow: hidden;
-  margin-top: -6px;
+  margin-top: 10px;
   margin-left: 15px;
+  margin-right: 15px;
   height: 185px;
   width: 600px;
   border: black solid 1px;
